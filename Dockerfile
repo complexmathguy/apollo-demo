@@ -10,7 +10,7 @@ apt-get install -y nano
 # -----------------------------------------------
 # copy all files 
 # -----------------------------------------------
-ADD server/apollo-demo-demo/ .
+ADD server/apollo-demo/ .
 ADD entrypoint.sh .
 
 # -----------------------------------------------
