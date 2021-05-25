@@ -56,7 +56,7 @@ jobs:
           command: echo initializaing...
                    
 
-      - run: sudo npm install --${BUILD_ENV} > /dev/null
+      - run: cd server/apollo-demo && sudo npm install --${BUILD_ENV} > /dev/null
  
       - run:
           name: Building with testing
