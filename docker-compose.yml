@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  platform:
+    image: theharbormaster/apollo-demo:latest
+    ports:
+      - "4000:4000"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: letmein2
+
